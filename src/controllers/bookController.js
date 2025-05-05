@@ -22,7 +22,7 @@ export const getBookById = async (req, res) => {
   }
 };
 
-// POST /books/:id
+// POST /books
 export const createBook = async (req, res) => {
   try {
     const newBook = new Book(req.body);
