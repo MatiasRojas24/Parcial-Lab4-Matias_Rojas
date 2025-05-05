@@ -15,7 +15,7 @@ router.get('/', getBooks);
 // GET /books/:id
 router.get('/:id', getBookById);
 
-// POST /books/:id
+// POST /books
 router.post('/', createBook);
 
 // PUT /books/:id
